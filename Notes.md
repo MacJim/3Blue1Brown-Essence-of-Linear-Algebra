@@ -1,5 +1,14 @@
 # 3Blue1Brown Essence of Linear Algebra Lecture Notes
 
+- [3Blue1Brown Essence of Linear Algebra Lecture Notes](#3blue1brown-essence-of-linear-algebra-lecture-notes)
+    - [3](#3)
+    - [4](#4)
+    - [5](#5)
+    - [6](#6)
+        - [Right Hand Axes](#right-hand-axes)
+        - [Determinant Calculation](#determinant-calculation)
+    - [7 Inverse Matrices, Column Space and Null Space uQhTuRlWMxw](#7-inverse-matrices-column-space-and-null-space-uqhturlwmxw)
+
 Playlist: <https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab>
 
 ## 3
@@ -49,3 +58,24 @@ Can no longer use right hand axes after the transformation -> determinant < 0
 ![2x2 matrix](6_files/determinant_2_2.png)
 
 ![3x3 matrix](6_files/determinant_3_3.png)
+
+## 7 Inverse Matrices, Column Space and Null Space uQhTuRlWMxw
+
+![Linear System of Equations](7_files/linear_system_of_equations.jpg)
+
+![Linear System of Equations to Matrix Multiplication](7_files/linear_system_of_equations_to_matrix_multiplication.jpg)
+
+Identity transformation: `inverse(A) @ A == I`
+
+![Solve variables](7_files/solve_x.jpg)
+
+`det(A) == 0`: Not inversible.
+Solutions don't exist if the 2 equations contradict:
+
+![Determinant 0 Solutions](7_files/det_0_solutions.jpg)
+
+Rank: New dimensionality.
+"full rank"
+
+**Null space**/**kernel**: The set of vectors that lands on the origin after the transformation.
+Describes solutions of `A @ x == [[0], [0]]`.
