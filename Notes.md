@@ -8,6 +8,7 @@
         - [Right Hand Axes](#right-hand-axes)
         - [Determinant Calculation](#determinant-calculation)
     - [7 Inverse Matrices, Column Space and Null Space uQhTuRlWMxw](#7-inverse-matrices-column-space-and-null-space-uqhturlwmxw)
+    - [8 Nonsquare Matrices as Transformations Between Dimensions](#8-nonsquare-matrices-as-transformations-between-dimensions)
 
 Playlist: <https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab>
 
@@ -79,3 +80,13 @@ Rank: New dimensionality.
 
 **Null space**/**kernel**: The set of vectors that lands on the origin after the transformation.
 Describes solutions of `A @ x == [[0], [0]]`.
+
+## 8 Nonsquare Matrices as Transformations Between Dimensions
+
+![2D to 3D space](8_files/2d_to_3d_space.jpg)
+
+Example: 2D vector to 3D vector
+
+Column space: a plane in 3D space
+
+![Column space](8_files/columns.jpg)
