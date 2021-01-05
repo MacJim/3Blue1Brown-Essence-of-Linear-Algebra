@@ -9,6 +9,7 @@
         - [Determinant Calculation](#determinant-calculation)
     - [7 Inverse Matrices, Column Space and Null Space uQhTuRlWMxw](#7-inverse-matrices-column-space-and-null-space-uqhturlwmxw)
     - [8 Nonsquare Matrices as Transformations Between Dimensions](#8-nonsquare-matrices-as-transformations-between-dimensions)
+    - [9 Dot Products and Duality](#9-dot-products-and-duality)
 
 Playlist: <https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab>
 
@@ -16,8 +17,12 @@ Playlist: <https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE
 
 Source: <https://www.youtube.com/watch?v=kYB8IZa5AuE>
 
-**Linear transformation**: after a linear transformation, lines remain lines, and the origin stays fixed.
+**Linear transformation** in layman's terms: after a linear transformation, lines remain lines, and the origin stays fixed.
 In other words, keep grid lines parallel and evenly spaced.
+
+Linear transformation in formulae:
+
+![Linear Transformation Limits](3_files/linear_transformation_formulae.jpg)
 
 ## 4
 
@@ -52,7 +57,7 @@ Values:
 
 ![Right Hand Axes](6_files/right_hand_axes.png)
 
-Can no longer use right hand axes after the transformation -> determinant < 0
+Can no longer use right hand axes after the transformation: determinant < 0
 
 ### Determinant Calculation
 
@@ -90,3 +95,26 @@ Example: 2D vector to 3D vector
 Column space: a plane in 3D space
 
 ![Column space](8_files/columns.jpg)
+
+## 9 Dot Products and Duality
+
+Dot product calculation using numbers:
+
+![Basic Method](9_files/basic_method.jpg)
+
+Dot product calculation using projection: `len(w's projection on v) * len(v)`
+
+![Projection and Multiplication](9_files/projection_and_multiplication.jpg)
+
+- If `w`'s projection is opposite to `v`, the dot product is negative
+- Perpendicular vector: dot product is 0
+
+Dot product usage: check if 2 vectors point in roughly the same direction.
+
+`v . w == w . v`
+
+Consider one of the vectors as a transformation matrix:
+
+![Transformation](9_files/vector_and_transformation.jpg)
+
+**Duality**: natural by surprising correspondence between 2 things.
