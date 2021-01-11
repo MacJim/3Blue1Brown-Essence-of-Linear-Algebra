@@ -10,6 +10,9 @@
     - [7 Inverse Matrices, Column Space and Null Space uQhTuRlWMxw](#7-inverse-matrices-column-space-and-null-space-uqhturlwmxw)
     - [8 Nonsquare Matrices as Transformations Between Dimensions](#8-nonsquare-matrices-as-transformations-between-dimensions)
     - [9 Dot Products and Duality](#9-dot-products-and-duality)
+    - [10 Cross Products](#10-cross-products)
+        - [Treat Cross Products as Values](#treat-cross-products-as-values)
+        - [Treat Cross Products as 3D Vectors](#treat-cross-products-as-3d-vectors)
 
 Playlist: <https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab>
 
@@ -118,3 +121,40 @@ Consider one of the vectors as a transformation matrix:
 ![Transformation](9_files/vector_and_transformation.jpg)
 
 **Duality**: natural but surprising correspondence between 2 things.
+
+## 10 Cross Products
+
+### Treat Cross Products as Values
+
+Basic definition: area of parallelogram
+
+![Basic Definition](10_files/numeric_value.jpg)
+
+Asymmetric: `v ✖️ w == - w ✖️ v`
+
+- ![Positive Cross Product](10_files/numeric_positive.jpg)
+- ![Negative Cross Product](10_files/numeric_negative.jpg)
+
+Basically, the unit vectors' placement introduces positive cross products:
+
+![Positive with Unit Vectors](10_files/numeric_positive_with_unit_vectors.jpg)
+
+That is because: cross products can be calculated using determinants:
+
+![Calculation with Determinants](10_files/numeric_calculation_determinant.jpg)
+
+Cross products are scalable:
+
+![Scalability](10_files/numeric_scalability.jpg)
+
+### Treat Cross Products as 3D Vectors
+
+The length of 3D cross products equals the area/determinant calculated above.
+
+Direction of cross products: use right hand rule:
+
+![Right Hand Rule](10_files/right_hand_rule.jpg)
+
+Calculation:
+
+![Calculation](10_files/vector_calculation.jpg)
