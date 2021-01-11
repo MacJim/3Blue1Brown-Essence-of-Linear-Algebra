@@ -109,12 +109,12 @@ Dot product calculation using projection: `len(w's projection on v) * len(v)`
 - If `w`'s projection is opposite to `v`, the dot product is negative
 - Perpendicular vector: dot product is 0
 
-Dot product usage: check if 2 vectors point in roughly the same direction.
+Projection is symmetric: `v . w == w . v`
 
-`v . w == w . v`
+Dot product usage: check if 2 vectors point in roughly the same direction.
 
 Consider one of the vectors as a transformation matrix:
 
 ![Transformation](9_files/vector_and_transformation.jpg)
 
-**Duality**: natural by surprising correspondence between 2 things.
+**Duality**: natural but surprising correspondence between 2 things.
