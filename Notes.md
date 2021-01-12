@@ -13,6 +13,7 @@
     - [10 Cross Products](#10-cross-products)
         - [Treat Cross Products as Values](#treat-cross-products-as-values)
         - [Treat Cross Products as 3D Vectors](#treat-cross-products-as-3d-vectors)
+    - [11 Cross Products in the Light of Linear Transformations](#11-cross-products-in-the-light-of-linear-transformations)
 
 Playlist: <https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab>
 
@@ -26,6 +27,8 @@ In other words, keep grid lines parallel and evenly spaced.
 Linear transformation in formulae:
 
 ![Linear Transformation Limits](3_files/linear_transformation_formulae.jpg)
+
+Linear transformations can be described using matrix multiplication.
 
 ## 4
 
@@ -122,6 +125,8 @@ Consider one of the vectors as a transformation matrix:
 
 **Duality**: natural but surprising correspondence between 2 things.
 
+Dual vector: likes the dot product, maps a 2D vector onto an 1D line.
+
 ## 10 Cross Products
 
 ### Treat Cross Products as Values
@@ -158,3 +163,24 @@ Direction of cross products: use right hand rule:
 Calculation:
 
 ![Calculation](10_files/vector_calculation.jpg)
+
+## 11 Cross Products in the Light of Linear Transformations
+
+![Cross Product Facts](11_files/cross_product_facts.jpg)
+
+![Calculation as Part of Determinant](11_files/calculation_determinant_fashion.jpg)
+
+Cross product is the **dual vector** of `v` and `w`.
+That it, it is a 3D to 1D linear transformation.
+
+![Linearity](11_files/calculation_determinant_linear.jpg)
+
+![Dual Vector](11_files/dual_vector.jpg)
+
+The dual vector equals the cross product vector:
+
+![Dual Vector and Cross Product Vector](11_files/dual_vector_and_cross_product.jpg)
+
+Dual vector characteristics:
+
+![Dual Vector Characteristics](11_files/dual_vector_characteristics.jpg)
