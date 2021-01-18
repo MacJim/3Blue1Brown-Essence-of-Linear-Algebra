@@ -14,6 +14,7 @@
         - [Treat Cross Products as Values](#treat-cross-products-as-values)
         - [Treat Cross Products as 3D Vectors](#treat-cross-products-as-3d-vectors)
     - [11 Cross Products in the Light of Linear Transformations](#11-cross-products-in-the-light-of-linear-transformations)
+    - [12 Cramer's Rule, Explained Geometrically](#12-cramers-rule-explained-geometrically)
 
 Playlist: <https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab>
 
@@ -184,3 +185,33 @@ The dual vector equals the cross product vector:
 Dual vector characteristics:
 
 ![Dual Vector Characteristics](11_files/dual_vector_characteristics.jpg)
+
+## 12 Cramer's Rule, Explained Geometrically
+
+The solution for linear systems of equations (Cramer's Rule):
+
+![Cramer's Rule 1](12_files/cramers_rule_1.jpg)
+
+![Cramer's Rule 2](12_files/cramers_rule_2.jpg)
+
+This is not the fastest solution.
+E.g. [Gaussian Elimination](https://en.wikipedia.org/wiki/Gaussian_elimination) will always be faster.
+
+Dot products before and after a transformation usually do not equal:
+`v . w > 0` does not mean that `T(v) . T(w) > 0`.
+
+Orthonormal transformation: rotation.
+
+![Orthonormal Transformation](12_files/orthonormal_transformation.jpg)
+
+Axes in determinants:
+
+![Axes in 2D Determinants](12_files/determinant_axis_2d.jpg)
+
+![Axes in 3D Determinants](12_files/determinant_axis_3d.jpg)
+
+Areas are scaled by the transformation matrix by the same amount.
+
+![Cramer's Rule Proof 1](12_files/cramers_rule_proof_1.jpg)
+
+![Cramer's Rule Proof 2](12_files/cramers_rule_proof_2.jpg)
