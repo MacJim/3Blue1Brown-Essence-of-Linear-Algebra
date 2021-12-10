@@ -31,6 +31,8 @@ Linear transformation in formulae:
 
 Linear transformations can be described using matrix multiplication.
 
+Affine transformation: Same as linear transformation, except that the origin moves (linear transformation + translation).
+
 ## 4
 
 **Composition** of multiple transformations `A @ B @ P`:
